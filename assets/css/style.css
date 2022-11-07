@@ -17,4 +17,154 @@
     --white: #fff;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    font-family: "Inter", sans-serif;
+    color: var(--body);
+    line-height: 1.8;
+    background-color: var(--bg1);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Dela Gothic One', cursive;
+    color: var(--white) ;
+}
+
+p {
+    font-size: 1.1rem;
+    margin: 25px 0;
+    color: var(--white);
+}
+
+a {
+    text-decoration: none;
+    color: var(--body) ;
+}
+
+a:hover {
+  color: var(--brand);
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+.btn {
+    padding: 16px 32px;
+    font-family: 'Dela Gothic One', cursive;
+    border-radius: 0;
+    transition: all 0.4s ease;
+}
+
+.btn-brand {
+    background: var(--brand);
+}
+
+.btn-brand:hover {
+    background: transparent;
+    color: var(--brand);
+    border-color: var(--brand);
+}
+
+.btn-outline-brand {
+    background-color: transparent;
+    color: var(--brand);
+    border: 1px solid var(--brand);
+
+}
+
+.btn-outline-brand:hover {
+    background-color: var(--brand);
+}
+
+/******************************
+*             NAVBAR          *
+******************************/
+
+.navbar {
+  background: linear-gradient(#1B1F34, rgba(27, 31, 52, 0.2));
+}
+
+.navbar-brand {
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 32px;
+}
+
+.navbar .navbar-nav .nav-link.active {
+    color: var(--brand);
+}
+
+/******************************
+*          HERO SECTION       *
+******************************/
+#hero {
+    background-image: linear-gradient(to bottom, #1B1F34, rgba(27, 31, 52, 0.0)), url("/assets/img/cover_1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+/******************************
+*        ABOUT SECTION        *
+******************************/
+#about {
+    position: relative;
+}
+
+#about::after {
+  content: "";
+  width: 25%;
+  height: 100%;
+  background-color: var(--brand);
+  position:absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+
+}
+
+#about h6 {
+    color: var(--brand);
+}
+
+#about h1 {
+    margin: 19px 0 24px;
+}
+
+#about .signature {
+   width: unset;
+}
+
+/******************************
+*       SERVICES SECTION      *
+******************************/
+
+.link-more {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-left-width: 1px;
+
+}
+
+.link-more:hover .icon {
+    transform: translateX(8px);
+
+}
+
+.link-more .icon {
+    transition: all .4s ease;
+}
