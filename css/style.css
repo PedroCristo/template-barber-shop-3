@@ -1,4 +1,13 @@
+
+/******************************
+*        GOOGLE FONTS         *
+******************************/
+
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Inter:wght@400;500;600&display=swap');
+
+/******************************
+*        GENERAL STYLES       *
+******************************/
 
 :root {
     --bg1: #151828;
