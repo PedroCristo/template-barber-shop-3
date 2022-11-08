@@ -187,11 +187,39 @@ section {
     padding: 32px;
 }
 
-#services .intro p {
+.intro p {
     width: 70%;
     margin: 0 auto;
 }
 
-#services .btn {
+#services .btn,
+#features .btn {
     margin: 0 20px 0;
+}
+
+/******************************
+*       SERVICES SECTION      *
+******************************/
+
+#milestone {
+    background-image: linear-gradient(to right, #1B1F34, rgba(27, 31, 52, 0.5)), url("/assets/img/cover_2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/******************************
+*       FEATURES SECTION      *
+******************************/
+#features .feature {
+    display: flex;
+}
+
+#features .feature-icon {
+    line-height: 1;
+    margin-right: 15px;
+}
+
+#features p {
+   font-size: 1rem;
 }
