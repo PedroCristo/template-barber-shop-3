@@ -94,7 +94,6 @@ section {
 
 .brand-color {
     color: var(--brand);
-
 }
 
 /******************************
@@ -213,7 +212,7 @@ section {
 *       FEATURES SECTION      *
 ******************************/
 #features  {
-    background: var(--bg2);
+    background: var(--bg1);
 }
 
 #features .feature {
@@ -232,29 +231,31 @@ section {
 /******************************
 *         TEAM SECTION        *
 ******************************/
-#team .team-member {
-   position: relative;
+#team {
+   background: var(--bg2);
 }
 
-#team .team-member img {
- cursor: pointer;
+#team .team-member {
+    position: relative;
+    cursor: pointer;
+    background: var(--bg1);
 }
 
 #team .team-member .social-links {
-  position: absolute;
-  right: 25px;
-  top: 25px;
-  background: var(--bg1);
-  transition: all .4s ease;
-  opacity: 0.3;
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    background: var(--bg1);
+    transition: all .4s ease;
+    opacity: 0.3;
 }
 
 #team .team-member .social-links a{
-   width: 50px;
-   height: 50px;
-   display: flex;
-   align-items: center;
-   justify-content: center;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #team .team-member .social-links a{
@@ -271,5 +272,77 @@ section {
 }
 
 #team .team-member:hover .social-links {
-   opacity: 1;
+    opacity: 1;
+    top: 35px;
+}
+
+/******************************
+*        REVIEWS SECTION      *
+******************************/
+#reviews {
+    background: var(--bg1);
+}
+
+#reviews .review {
+    padding: 32px;
+    background: var(--bg2);
+    position: relative;
+}
+
+#reviews .review img {
+    width: 60px;
+    border-radius: 50%;
+}
+
+#reviews .review h5 {
+    width: 200px;
+   
+}
+
+#reviews .review .user-details {
+    margin-left: 15px;
+}
+
+#reviews .review .icon {
+    width: 43px;
+    height: 43px;
+    background-color: var(--brand);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--bg2);
+    border-radius: 50%;
+    position: absolute;
+    right: 15px;
+    top: 25px;
+}
+
+/******************************
+*           BLOG SECTION      *
+******************************/
+#blog {
+    background-color: var(--bg2);
+}
+
+#blog .blog-spot {
+    position: relative;
+}
+
+#blog .blog-spot .date {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background-color: var(--brand);
+    width: 100px;
+    height: 100px;
+    color: var(--bg1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#blog .blog-spot .date .day {
+    font-size: 2rem;
+    font-family: 'Dela Gothic One', cursive;
+    line-height: 1;
 }
