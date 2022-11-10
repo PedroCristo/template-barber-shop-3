@@ -85,7 +85,6 @@ section {
 .btn-outline-brand {
     background-color: transparent;
     border: 1px solid var(--brand);
-
 }
 
 .btn-outline-brand:hover {
@@ -165,7 +164,6 @@ section {
   top: 0;
   left: 0;
   z-index: -1;
-
 }
 
 #about h1 {
@@ -205,7 +203,6 @@ section {
 
 #services .service {
     padding: 32px;
-
 }
 
 #services .service {
@@ -298,7 +295,6 @@ section {
 
 #reviews .review h5 {
     width: 200px;
-   
 }
 
 #reviews .review .user-details {
@@ -385,7 +381,6 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 #booking form .form-control:focus {
    box-shadow: none;
-
 }
 
 /******************************
@@ -393,7 +388,6 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 ******************************/
 footer .social-links {
     display: flex;
-
 }
 
 footer .social-links a{
