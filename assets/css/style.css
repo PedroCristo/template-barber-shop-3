@@ -96,6 +96,31 @@ section {
     color: var(--brand);
 }
 
+.social-links {
+    transition: all .4s ease;
+    opacity: 1;
+}
+
+.social-links a{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg2);
+    font-size: 1.2rem;
+}
+
+ .social-links a:hover{
+   background: var(--brand);
+   color: var(--bg1);
+}
+
+.social-links a:hover i{
+   color: var(--bg2);
+}
+
+
 /******************************
 *             NAVBAR          *
 ******************************/
@@ -245,30 +270,7 @@ section {
     position: absolute;
     right: 25px;
     top: 25px;
-    background: var(--bg1);
-    transition: all .4s ease;
     opacity: 0.3;
-}
-
-#team .team-member .social-links a{
-    width: 50px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#team .team-member .social-links a{
-   font-size: 1.2rem;
-}
-
-#team .team-member .social-links a:hover{
-   background: var(--brand);
-   color: var(--bg1);
-}
-
-#team .team-member .social-links a:hover i{
-   color: var(--bg1);
 }
 
 #team .team-member:hover .social-links {
@@ -345,4 +347,59 @@ section {
     font-size: 2rem;
     font-family: 'Dela Gothic One', cursive;
     line-height: 1;
+}
+
+/******************************
+*         BOOKING SECTION     *
+******************************/
+#booking {
+    background-image: linear-gradient(to right, #1B1F34, rgba(27, 31, 52, 0.5)), url("/assets/img/cover_2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#booking form {
+    background-color: var(--bg1);
+    padding: 32px;
+}
+
+#booking form .form-control {
+    background-color: var(--bg2);
+    border-radius: 0;
+    margin-top: 16px;
+    border-color: var(--bg2);
+    border: 2px solid --bg2;
+    cursor: pointer;
+    color: var(--white);
+}
+
+#booking form input {
+     height: 58px;
+}
+
+#booking form .form-control:focus {
+   box-shadow: none;
+
+}
+
+/******************************
+*          FOOTER SECTION     *
+******************************/
+footer .social-links {
+    display: flex;
+
+}
+
+footer .social-links a{
+   margin-right: 5px;
+}
+
+footer .footer-bottom hr {
+    width: 90%;
+    margin: 30px auto;
+}
+
+footer .footer-bottom p {
+   font-size: 0.8rem;
 }

@@ -10,6 +10,13 @@
 }
 
 @media only screen and (max-width: 991px) {
+    .navbar {
+        background: linear-gradient(#1B1F34, rgba(27, 31, 52, 0.8));
+    }
+
+    .navbar-dark .navbar-nav .nav-link {
+        color: var(--white);
+    }
     #reviews .review .icon {
         right: 50px;
     }
@@ -27,8 +34,7 @@
         width: 45%;
       }
 
-    #services .btn,
-    #features .btn {
+    .btn {
         margin: 10px 20px 0;
         width: 200px;
     }
