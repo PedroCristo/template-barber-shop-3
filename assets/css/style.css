@@ -378,6 +378,11 @@ section {
      height: 58px;
 }
 
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(100%);
+    font-size: 1.3rem;
+  }
+
 #booking form .form-control:focus {
    box-shadow: none;
 
