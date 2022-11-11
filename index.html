@@ -524,18 +524,17 @@
               <input type="email" class="form-control" placeholder="Email Address" name="email">
             </div>
             <div class="form-group col-12">
-              <input  type="date" id="inputDate" max="2050-01-01" class="form-control" placeholder="Select Date" name="date">
+              <input  type="date" id="inputDate" max="2050-01-01" class="form-control" placeholder="Select Date"
+                name="date">
             </div>
+            <input type="time" min="09:00" max="21:00" class="form-control" name="time" onmouseover="timeAlert()">
             <div class="form-group col-12">
-            </div>
-            <div class="form-group col-12">
-              <input type="time" min="09:00" max="21:00" class="form-control" name="time">
-            </div>
               <textarea name="message" id="" cols="30" rows="5" class="form-control w-100"
               placeholder="Message"></textarea>
             </div>
+            <p id="timeAlert"></p>
             <div class="form-group col-12">
-              <button type="submit" class="btn btn-brand mt-3">Submit</button>
+              <button type="submit" class="btn btn-brand mt-3 ml-3">Submit</button>
             </div>
           </form>
         </div>
@@ -564,7 +563,7 @@
                 <h4 class="mb-4">Working Hours</h4>
                 <div>
                   <h6>Monday - Saturday</h6>
-                  <p>9:00am -9:00pm</p>
+                  <p>09:00am -09:00pm</p>
                 </div>
                 <div>
                   <h6>Sunday</h6>

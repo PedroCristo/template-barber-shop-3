@@ -16,6 +16,16 @@ var fullDate = year + "-" + month + "-" + day;
 document.getElementById("outputYear").innerHTML =  year
 document.getElementById("inputDate").min = fullDate
 
+
+// Time alert function
+
+function timeAlert() {
+  document.getElementById("timeAlert").innerHTML = "Choose a time in between 9:00 am and 9:00 pm"
+}
+
+
+
+
 // Smooth scrolling to all links
 $("a").on('click', function (e) {
     if (this.hash !== "") {

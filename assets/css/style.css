@@ -388,6 +388,10 @@ input[type="time"]::-webkit-calendar-picker-indicator {
    box-shadow: none;
 }
 
+#booking form #timeAlert {
+height: 8px;
+}
+
 /******************************
 *          FOOTER SECTION     *
 ******************************/
